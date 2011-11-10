@@ -1,12 +1,11 @@
-Source: ros-std-msgs
+Source: @(CATKIN_PACKAGE_PREFIX)std-msgs
 Section: misc
 Priority: extra
 Maintainer: Troy Straszheim <straszheim@willowgarage.com>
-Build-Depends: debhelper (>= 7), cmake, gcc, make, catkin, ros-fuerte-genmsg, ros-fuerte-gencpp
-Standards-Version: 7.0.3
+Build-Depends: debhelper (>= 7), cmake, gcc, make, catkin, @(CATKIN_PACKAGE_PREFIX)genmsg, @(CATKIN_PACKAGE_PREFIX)gencpp
 Homepage: <insert the upstream URL, if relevant>
 
-Package: ros-std-msgs
+Package: @(CATKIN_PACKAGE_PREFIX)std-msgs
 Architecture: all
 Depends: ${misc:Depends}
 Description: <insert up to 60 chars description>
