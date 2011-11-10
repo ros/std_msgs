@@ -26,3 +26,5 @@ install_cmake_infrastructure(${PROJECT_NAME}
   VERSION 0.0.1
   MSG_DIRS msg
   )
+
+catkin_package(std_msgs)

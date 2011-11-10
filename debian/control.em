@@ -1,7 +1,7 @@
 Source: @(CATKIN_PACKAGE_PREFIX)std-msgs
 Section: misc
 Priority: extra
-Maintainer: Troy Straszheim <straszheim@willowgarage.com>
+Maintainer: Troy Straszheim <straszheim@@willowgarage.com>
 Build-Depends: debhelper (>= 7), cmake, gcc, make, catkin, @(CATKIN_PACKAGE_PREFIX)genmsg, @(CATKIN_PACKAGE_PREFIX)gencpp
 Homepage: <insert the upstream URL, if relevant>
 
