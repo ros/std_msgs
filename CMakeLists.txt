@@ -6,7 +6,7 @@ find_package(genmsg)
 
 generate_msgs(${PROJECT_NAME}
   PATH msg
-  MESSAGES 
+  MESSAGES
 
   msg/Bool.msg msg/Float32MultiArray.msg msg/Int64MultiArray.msg
   msg/UInt32.msg msg/Byte.msg msg/Float64.msg msg/Int8.msg
@@ -22,7 +22,7 @@ generate_msgs(${PROJECT_NAME}
 
   )
 
-install_cmake_infrastructure(${PROJECT_NAME}
+install_cmake_infrastructure(std_msgs
   VERSION 0.0.1
   MSG_DIRS msg
   )
