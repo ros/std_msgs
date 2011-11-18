@@ -28,3 +28,4 @@ install_cmake_infrastructure(std_msgs
   )
 
 catkin_package(std_msgs)
+enable_python(std_msgs)
