@@ -1,0 +1,18 @@
+Package: std-msgs
+Version: 3.4.5
+Section: misc
+Priority: extra
+Architecture: all
+Depends: ${misc:Depends} python-empy, cmake, make
+Build-Depends: debhelper (>= 7), cmake, gcc, make, python, python-empy, python-setuptools, 
+               @(CATKIN_PACKAGE_PREFIX)catkin, @(CATKIN_PACKAGE_PREFIX)genmsg, 
+               @(CATKIN_PACKAGE_PREFIX)gencpp, @(CATKIN_PACKAGE_PREFIX)genpy
+Description: Standard ROS Message
+Author: The ROS Ecosystem
+Maintainer: Troy Straszheim <straszheim@willowgarage.com>
+Homepage: http://www.ros.org
+Catkin-DebRulesType: cmake
+Catkin-CopyrightType:  willowgarage
+Catkin-Depends: catkin, genmsg
+Catkin-ProjectName: std_msgs
+
