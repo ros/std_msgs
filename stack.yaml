@@ -4,9 +4,9 @@ Section: misc
 Priority: extra
 Architecture: all
 Depends: ${misc:Depends} python-empy, cmake, make
-Build-Depends: debhelper (>= 7), cmake, gcc, make, python, python-empy, python-setuptools, 
-               @(CATKIN_PACKAGE_PREFIX)catkin, @(CATKIN_PACKAGE_PREFIX)genmsg, 
-               @(CATKIN_PACKAGE_PREFIX)gencpp, @(CATKIN_PACKAGE_PREFIX)genpy
+Build-Depends: debhelper (>= 7), cmake, gcc, make, python, python-empy, python-setuptools,
+               @(CATKIN_PACKAGE_PREFIX)catkin, @(CATKIN_PACKAGE_PREFIX)genmsg,
+               @(CATKIN_PACKAGE_PREFIX)gencpp, @(CATKIN_PACKAGE_PREFIX)genpy, @(CATKIN_PACKAGE_PREFIX)genpybindings
 Description: Standard ROS Message
 Author: The ROS Ecosystem
 Maintainer: Troy Straszheim <straszheim@willowgarage.com>
