@@ -20,7 +20,7 @@ add_message_files(
 
 generate_messages()
 
-install_cmake_infrastructure(std_msgs
+catkin_project(std_msgs
   VERSION 0.0.1
   MSG_DIRS msg
   )
