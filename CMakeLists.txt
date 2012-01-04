@@ -23,5 +23,3 @@ generate_messages()
 catkin_project(std_msgs
   MSG_DIRS msg
   )
-
-enable_python(std_msgs)
