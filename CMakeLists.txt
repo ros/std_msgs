@@ -21,9 +21,7 @@ add_message_files(
 generate_messages()
 
 catkin_project(std_msgs
-  VERSION 0.0.1
   MSG_DIRS msg
   )
 
-catkin_package(std_msgs)
 enable_python(std_msgs)
