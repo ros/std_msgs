@@ -26,3 +26,6 @@ catkin_project(std_msgs
 install(FILES manifest.xml
   DESTINATION share/std_msgs
 )
+install(DIRECTORY msg
+  DESTINATION share/std_msgs
+  )
