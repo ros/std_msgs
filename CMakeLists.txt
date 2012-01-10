@@ -20,9 +20,7 @@ add_message_files(
 
 generate_messages()
 
-catkin_project(std_msgs
-  MSG_DIRS msg
-  )
+catkin_project(std_msgs)
 install(FILES manifest.xml
   DESTINATION share/std_msgs
 )
