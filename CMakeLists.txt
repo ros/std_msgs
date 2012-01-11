@@ -26,4 +26,5 @@ install(FILES manifest.xml
 )
 install(DIRECTORY msg
   DESTINATION share/std_msgs
+  PATTERN ".svn" EXCLUDE
   )
