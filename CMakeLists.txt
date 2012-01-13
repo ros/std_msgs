@@ -1,5 +1,7 @@
 cmake_minimum_required(VERSION 2.8)
 project(std_msgs)
+catkin_project(std_msgs
+               INCLUDE_DIRS include)
 
 find_package(catkin)
 find_package(genmsg)
@@ -20,7 +22,6 @@ add_message_files(
 
 generate_messages()
 
-catkin_project(std_msgs)
 install(FILES manifest.xml
   DESTINATION share/std_msgs
 )
