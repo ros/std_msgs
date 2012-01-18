@@ -2,7 +2,7 @@ Catkin-ProjectName: std_msgs
 Version: 0.3.0
 Description: Standard ROS Message
 
-Depends: catkin, genmsg, gencpp, genpy, gentypelibxml, roscpp_core
+Depends: catkin, genmsg, langs, roscpp_core
 Author: The ROS Ecosystem
 Maintainer: Troy Straszheim <straszheim@willowgarage.com>
 Homepage: http://www.ros.org
