@@ -1,10 +1,11 @@
 cmake_minimum_required(VERSION 2.8)
 project(std_msgs)
-catkin_project(std_msgs
-               INCLUDE_DIRS include)
 
 find_package(catkin)
 find_package(genmsg)
+
+catkin_project(std_msgs
+               INCLUDE_DIRS include)
 
 add_message_files(
   DIRECTORY msg
