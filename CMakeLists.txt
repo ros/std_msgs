@@ -23,7 +23,7 @@ add_message_files(
 
 generate_messages()
 
-install(FILES manifest.xml
+install(FILES manifest.xml stack.yaml
   DESTINATION share/std_msgs
 )
 install(DIRECTORY msg
