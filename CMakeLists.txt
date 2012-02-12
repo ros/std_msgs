@@ -4,6 +4,7 @@ project(std_msgs)
 find_package(catkin)
 find_package(genmsg)
 
+catkin_stack()
 catkin_project(std_msgs
                INCLUDE_DIRS include)
 
