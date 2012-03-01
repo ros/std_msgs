@@ -4,6 +4,11 @@ project(std_msgs)
 find_package(catkin)
 find_package(genmsg)
 
+message("************** in std_msgs/CMakeLists.txt")
+execute_process(COMMAND env)
+execute_process(COMMAND find /opt/ros/fuerte/lib/python2.6/dist-packages)
+message("in std_msgs/CMakeLists.txt **************")
+
 catkin_stack()
 catkin_project(std_msgs
                INCLUDE_DIRS include)
