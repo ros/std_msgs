@@ -31,3 +31,21 @@ install(DIRECTORY msg
   DESTINATION share/std_msgs
   PATTERN ".svn" EXCLUDE
   )
+install(FILES 
+  include/std_msgs/builtin_bool.h
+  include/std_msgs/builtin_double.h
+  include/std_msgs/builtin_float.h
+  include/std_msgs/builtin_int16.h
+  include/std_msgs/builtin_int32.h
+  include/std_msgs/builtin_int64.h
+  include/std_msgs/builtin_int8.h
+  include/std_msgs/builtin_string.h
+  include/std_msgs/builtin_uint16.h
+  include/std_msgs/builtin_uint32.h
+  include/std_msgs/builtin_uint64.h
+  include/std_msgs/builtin_uint8.h
+  include/std_msgs/header_deprecated_def.h
+  include/std_msgs/trait_macros.h
+  DESTINATION include/std_msgs
+  )
+
