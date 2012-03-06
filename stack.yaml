@@ -1,5 +1,5 @@
 Catkin-ProjectName: std_msgs
-Version: 0.4.5
+Version: 0.4.6
 Description: Standard ROS Message
 
 Depends: catkin, genmsg, langs, roscpp_core
