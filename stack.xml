@@ -1,0 +1,13 @@
+<stack>
+  <name>std_msgs</name>
+  <version>0.4.6</version>
+  <description>Standard ROS Message</description>
+  <author>Morgan Quigley mquigley@cs.stanford.edu, Ken Conley kwc@willowgarage.com, Jeremy Leibs leibs@willowgarage.com</author>
+  <maintainer>Troy Straszheim straszheim@willowgarage.com</maintainer>
+  <license>BSD</license>  
+  <copyright>Willow Garage</copyright>
+  <url>http://www.ros.org/wiki/std_msgs</url>
+
+  <build_depends>catkin</build_depends>
+  <build_depends>genmsg</build_depends>
+</stack>
