@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 2.8)
 project(std_msgs)
 
-find_package(catkin)
-find_package(genmsg)
+find_package(catkin REQUIRED)
+find_package(genmsg REQUIRED)
 
 catkin_stack()
 catkin_project(std_msgs
