@@ -12,4 +12,5 @@
 
   <build_depends>catkin</build_depends>
   <build_depends>genmsg</build_depends>
+  <build_depends>langs</build_depends>
 </stack>
