@@ -13,4 +13,5 @@
   <build_depends>catkin</build_depends>
   <build_depends>genmsg</build_depends>
   <build_depends>langs</build_depends>
+  <depends>langs</depends><!-- Needed to provide the langs to downstream packages for generation -->
 </stack>
