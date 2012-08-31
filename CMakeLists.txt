@@ -1,26 +1,48 @@
 cmake_minimum_required(VERSION 2.8)
 project(std_msgs)
 
-find_package(catkin REQUIRED)
-find_package(genmsg REQUIRED)
+find_package(catkin REQUIRED COMPONENTS genmsg)
 
 catkin_stack()
 catkin_project(std_msgs
-               INCLUDE_DIRS include)
+  INCLUDE_DIRS include)
 
 add_message_files(
   DIRECTORY msg
-  FILES Bool.msg Float32MultiArray.msg Int64MultiArray.msg
-  UInt32.msg Byte.msg Float64.msg Int8.msg
-  UInt32MultiArray.msg ByteMultiArray.msg
-  Float64MultiArray.msg Int8MultiArray.msg UInt64.msg
-  Char.msg Header.msg MultiArrayDimension.msg
-  UInt64MultiArray.msg Int16.msg MultiArrayLayout.msg
-  UInt8.msg ColorRGBA.msg Int16MultiArray.msg
-  String.msg UInt8MultiArray.msg Duration.msg
-  Int32.msg Time.msg Empty.msg Int32MultiArray.msg
-  UInt16.msg Float32.msg Int64.msg
-  UInt16MultiArray.msg)
+  FILES
+  Bool.msg
+  Byte.msg
+  ByteMultiArray.msg
+  Char.msg
+  ColorRGBA.msg
+  Duration.msg
+  Empty.msg
+  Float32.msg
+  Float32MultiArray.msg
+  Float64.msg
+  Float64MultiArray.msg
+  Header.msg
+  Int16.msg
+  Int16MultiArray.msg
+  Int32.msg
+  Int32MultiArray.msg
+  Int64.msg
+  Int64MultiArray.msg
+  Int8.msg
+  Int8MultiArray.msg
+  MultiArrayDimension.msg
+  MultiArrayLayout.msg
+  String.msg
+  Time.msg
+  UInt16.msg
+  UInt16MultiArray.msg
+  UInt32.msg
+  UInt32MultiArray.msg
+  UInt64.msg
+  UInt64MultiArray.msg
+  UInt8.msg
+  UInt8MultiArray.msg
+)
 
 generate_messages()
 
@@ -48,4 +70,3 @@ install(FILES
   include/std_msgs/trait_macros.h
   DESTINATION include/std_msgs
   )
-
