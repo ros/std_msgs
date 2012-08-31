@@ -49,10 +49,6 @@ generate_messages()
 install(FILES manifest.xml stack.xml
   DESTINATION share/std_msgs
 )
-install(DIRECTORY msg
-  DESTINATION share/std_msgs
-  PATTERN ".svn" EXCLUDE
-  )
 install(FILES 
   include/std_msgs/builtin_bool.h
   include/std_msgs/builtin_double.h
