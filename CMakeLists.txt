@@ -46,9 +46,6 @@ add_message_files(
 
 generate_messages()
 
-install(FILES manifest.xml stack.xml
-  DESTINATION share/std_msgs
-)
 install(FILES 
   include/std_msgs/builtin_bool.h
   include/std_msgs/builtin_double.h
@@ -64,5 +61,5 @@ install(FILES
   include/std_msgs/builtin_uint8.h
   include/std_msgs/header_deprecated_def.h
   include/std_msgs/trait_macros.h
-  DESTINATION include/std_msgs
-  )
+  DESTINATION ${PROJECT_INCLUDE_DESTINATION}
+)
