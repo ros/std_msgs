@@ -15,4 +15,5 @@
   <build_depends>langs-dev</build_depends>
 
   <depends>langs</depends>
+  <depends>pkg-config</depends>
 </stack>
