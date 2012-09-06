@@ -9,8 +9,8 @@ std_msgs contains common message types representing primitive data types and oth
   <review status="Doc reviewed" notes="2010-01-10"/>
   <url>http://www.ros.org/wiki/std_msgs</url>
   <export>
-    <cpp cflags="`PKG_CONFIG_PATH=${prefix}/../../lib/pkgconfig pkg-config --cflags std_msgs`"
-         lflags="`PKG_CONFIG_PATH=${prefix}/../../lib/pkgconfig pkg-config --libs std_msgs`"/>
+    <cpp cflags="`pkg-config --cflags std_msgs`"
+         lflags="`pkg-config --libs std_msgs`"/>
   </export>
 </package>
 
