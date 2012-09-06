@@ -61,5 +61,5 @@ install(FILES
   include/std_msgs/builtin_uint8.h
   include/std_msgs/header_deprecated_def.h
   include/std_msgs/trait_macros.h
-  DESTINATION ${PROJECT_INCLUDE_DESTINATION}
+  DESTINATION ${CATKIN_PROJECT_INCLUDE_DESTINATION}
 )
