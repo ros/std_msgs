@@ -3,9 +3,8 @@ project(std_msgs)
 
 find_package(catkin REQUIRED COMPONENTS genmsg)
 
-catkin_stack()
-catkin_project(std_msgs
-  INCLUDE_DIRS include)
+catkin_package()
+catkin_package_export(INCLUDE_DIRS include)
 
 add_message_files(
   DIRECTORY msg
@@ -61,5 +60,5 @@ install(FILES
   include/std_msgs/builtin_uint8.h
   include/std_msgs/header_deprecated_def.h
   include/std_msgs/trait_macros.h
-  DESTINATION ${CATKIN_PROJECT_INCLUDE_DESTINATION}
+  DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION}
 )
