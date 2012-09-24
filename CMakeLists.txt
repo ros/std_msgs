@@ -3,8 +3,7 @@ project(std_msgs)
 
 find_package(catkin REQUIRED COMPONENTS genmsg)
 
-catkin_package()
-catkin_package_export(INCLUDE_DIRS include)
+catkin_package(INCLUDE_DIRS include)
 
 add_message_files(
   DIRECTORY msg
