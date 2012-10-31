@@ -3,8 +3,6 @@ project(std_msgs)
 
 find_package(catkin REQUIRED COMPONENTS genmsg)
 
-catkin_package(INCLUDE_DIRS include)
-
 add_message_files(
   DIRECTORY msg
   FILES
@@ -43,6 +41,8 @@ add_message_files(
 )
 
 generate_messages()
+
+catkin_package(INCLUDE_DIRS include)
 
 install(DIRECTORY include/std_msgs/
   DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION}
