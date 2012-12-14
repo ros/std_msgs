@@ -15,7 +15,8 @@
   <author email="kwc@willowgarage.com">Ken Conley</author>
   <author email="leibs@willowgarage.com">Jeremy Leibs</author>
 
-  <build_depend>catkin</build_depend>
+  <buildtool_depend>catkin</buildtool_depend>
+
   <build_depend>message_generation</build_depend>
 
   <run_depend>message_runtime</run_depend>
