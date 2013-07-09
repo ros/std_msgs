@@ -6,7 +6,7 @@
     For common, generic robot-specific message types, please see <a href="http://www.ros.org/wiki/common_msgs">common_msgs</a>.
   </description>
   <maintainer email="tfoote@osrfoundation.org">Tully Foote</maintainer>
-  <license>BSD</license>  
+  <license>BSD</license>
 
   <url type="website">http://www.ros.org/wiki/std_msgs</url>
   <url type="repository">https://github.com/ros/std_msgs</url>
