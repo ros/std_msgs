@@ -3,7 +3,7 @@
 # to inner most.
 
 MultiArrayDimension[] dim # Array of dimension properties
-uint32 data_offset        # padding bytes at front of data
+uint32 data_offset        # padding elements at front of data
 
 # Accessors should ALWAYS be written in terms of dimension stride
 # and specified outer-most dimension first.
