@@ -31,6 +31,6 @@
 #include "trait_macros.h"
 #include <std_msgs/Float32.h>
 
-STD_MSGS_DEFINE_BUILTIN_TRAITS(float, Float32, 0x73fcbf46b49191e6ULL, 0x72908e50842a83d4ULL);
+STD_MSGS_DEFINE_BUILTIN_TRAITS(float, Float32, 0x73fcbf46b49191e6ULL, 0x72908e50842a83d4ULL)
 
 #endif
