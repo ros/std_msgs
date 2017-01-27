@@ -31,6 +31,6 @@
 #include "trait_macros.h"
 #include <std_msgs/Bool.h>
 
-STD_MSGS_DEFINE_BUILTIN_TRAITS(bool, Bool, 0x8b94c1b53db61fb6ULL, 0xaed406028ad6332aULL);
+STD_MSGS_DEFINE_BUILTIN_TRAITS(bool, Bool, 0x8b94c1b53db61fb6ULL, 0xaed406028ad6332aULL)
 
 #endif

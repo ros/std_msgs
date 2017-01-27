@@ -31,6 +31,6 @@
 #include "trait_macros.h"
 #include <std_msgs/UInt32.h>
 
-STD_MSGS_DEFINE_BUILTIN_TRAITS(uint32_t, UInt32, 0x304a39449588c7f8ULL, 0xce2df6e8001c5fceULL);
+STD_MSGS_DEFINE_BUILTIN_TRAITS(uint32_t, UInt32, 0x304a39449588c7f8ULL, 0xce2df6e8001c5fceULL)
 
 #endif
