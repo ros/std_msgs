@@ -5,7 +5,7 @@
     Standard ROS Messages including common message types representing primitive data types and other basic message constructs, such as multiarrays.
     For common, generic robot-specific message types, please see <a href="http://www.ros.org/wiki/common_msgs">common_msgs</a>.
   </description>
-  <maintainer email="michel@ekumenlabs.com">Michel Hidalgo</maintainer>
+  <maintainer email="geoff@openrobotics.org">Geoffrey Biggs</maintainer>
   <license>BSD</license>
 
   <url type="website">http://www.ros.org/wiki/std_msgs</url>
