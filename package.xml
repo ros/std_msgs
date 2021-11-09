@@ -15,6 +15,7 @@
   <author email="kwc@willowgarage.com">Ken Conley</author>
   <author email="leibs@willowgarage.com">Jeremy Leibs</author>
   <author email="tfoote@osrfoundation.org">Tully Foote</author>
+  <author email="michel@ekumenlabs.com">Michel Hidalgo</author>
 
   <buildtool_depend>catkin</buildtool_depend>
 
